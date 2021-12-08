@@ -41,8 +41,8 @@ TOKENIZER = AutoTokenizer.from_pretrained(MODEL_NAME)
 
 # load perturbed dataframe
 df_perturb = pd.read_parquet(f'{PARENT_DIR}{DATASET}-{ATTACK}-train.parquet')
-df_val = pd.read_parquet(f'perturbed-datasets-1/{DATASET}/{ATTACK}/{DATASET}-{ATTACK}-validation.parquet')
-df_test = pd.read_parquet(f'perturbed-datasets-1/{DATASET}/{ATTACK}/{DATASET}-{ATTACK}-test.parquet')
+df_val = pd.read_parquet(f'perturbed-datasets/{DATASET}/{ATTACK}/{DATASET}-{ATTACK}-validation.parquet')
+df_test = pd.read_parquet(f'perturbed-datasets/{DATASET}/{ATTACK}/{DATASET}-{ATTACK}-test.parquet')
 
 
 ## Dataset / Dataloader
