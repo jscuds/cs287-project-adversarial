@@ -1,4 +1,8 @@
-# Improving Deep Learning Model Robustness via Adversarial Attack
+# Improving Deep Learning Model Robustness Repository
+
+## Paper
+
+[Improving Deep Learning Model Robustness via Adversarial Attack](https://github.com/jscuds/cs287-project-adversarial/blob/main/Improving_DL_Adversarial_Attack.pdf)
 
 ## Members
 * Jack Scudder
